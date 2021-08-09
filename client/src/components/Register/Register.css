@@ -1,0 +1,43 @@
+.container {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+    width: 100%;
+}
+
+.container-header {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #aaa;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 40%);
+}
+
+.register-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    max-width: 500px;
+    width: 400px;
+    min-height: 480px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.register-link {
+    float: right;
+}

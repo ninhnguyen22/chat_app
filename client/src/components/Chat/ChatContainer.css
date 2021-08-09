@@ -1,0 +1,30 @@
+.site-layout-background {
+    background: #fff;
+}
+
+.scroll {
+    scroll-behavior: smooth;
+    height: 500px;
+}
+
+.ant-btn {
+    display: inline !important;
+}
+
+.chat_content {
+    height: calc(100vh - 64px);
+}
+
+.chat-active > div {
+    background: #f9f9f9;
+}
+
+.chat-box {
+    min-height: 280px;
+    background-color: #F2F5F8;
+}
+
+.chat-box .chat-header {
+    padding: 15px;
+    border-bottom: 3px solid #fff;
+}
